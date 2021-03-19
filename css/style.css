@@ -1,23 +1,25 @@
 @font-face{
-    font-family: "Ponter PC";
-    src: url("../fonts/20136.ttf");
+    font-family: "Aire Exterior";
+    src: url("../fonts/18685.ttf");
 }
 *{
     box-sizing: border-box;
 }
 body{
     margin: 0;
-    font-family: 'Ponter PC', Arial,sans-serif;
+    font-family: 'Aire Exterior','Ponter PC', Arial,sans-serif;
 }
 header{
     padding: 60px;
     text-align: center;
-    background-color: #1abc9c;
-    color:#fff;
+/*    background-color: #1abc9c;*/
+    background-image:url(../image/shapka_-_internet_1024x.jpg);
+    background-size: cover;
+    color: #fff;
 }
 nav{
     display: flex;
-    background-color: #333;
+    background-color: black;
     height: 50px;
     align-items: center;
 /*    justify-content: space-around;*/
@@ -27,8 +29,11 @@ nav a {
     color: #fff;
     padding: 14px 20px;
     text-decoration: none;
-/*    font-weight: bold;*/
-    font-size: 1.1em; 
+    font-weight: bold;
+    font-size: 1.3em; 
+}
+i{
+    font-size: 1em;
 }
 nav a:hover {
     background-color: #efebeb;
